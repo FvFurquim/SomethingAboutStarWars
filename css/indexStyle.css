@@ -1,0 +1,532 @@
+/*Body*/
+body#main{
+	margin: 0px;
+	padding: 0;
+	background-color: #00021A;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/*Conteudo*/
+section#content{
+	margin: 20px;
+	color: #fff;
+	font-family: 'Archivo', sans-serif;
+}
+
+h1#tri{
+	margin-left: 890px;
+}
+
+hr#line1{
+	position: absolute;
+	display: inline-block;
+	width: 200px;
+	left: 695px;
+	top: 1022px;
+}
+
+hr#line2{
+	position: absolute;
+	display: inline-block;
+	width: 200px;
+	left: 1015px;
+	top: 1022px;
+}
+
+div#principal{
+	margin-left: 220px;
+}
+
+.imgButtons{
+	left: 100px;
+	float: left;
+	width: 28%;
+	padding: 10px;
+	border: 0;
+}
+
+.img{
+	width: 100%;
+	transition: 0.5s ease;
+	padding: 0;
+	border: 0;
+}
+
+.text{
+	color: #fff;
+	font-weight: 300;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: 'Archivo', sans-serif;
+}
+
+.overlay{
+	margin-top: -280px;
+	margin-left: 125px;
+	height: 100%;
+	width: 80%;
+	opacity: 0;
+	transition: 0.5s ease;
+}
+
+.text h1{
+	margin-left: 80px;
+}
+
+.imgButtons:hover .img{
+	filter: blur(10px);
+	-webkit-filter: blur(10px);
+}
+
+.imgButtons:hover .overlay{
+	margin-top: -430px;
+	opacity: 1;
+	filter: blur(0px);
+}
+
+/*Conteudo Prequel*/
+
+.poster{
+	width: 180px;
+	float: left;
+	padding: 0px 30px;
+	padding-bottom: 50px;
+	padding-top: 10px;
+}
+
+.infos{
+	margin-left: 280px;
+	margin-top: 50px;
+}
+
+.infos p{
+	text-align: justify;
+	padding-top: 30px;
+	width: 75%;
+}
+
+.infos h1{
+	padding: 0px 20px;
+}
+
+/*Navbar principal*/
+.navButtons{
+	background: #00021A;
+	position: fixed;
+	top: 0;
+	display: block;
+	transition: top 0.8s;
+	z-index: 10000;
+}
+
+.navButtons a{
+	float: left;
+	display: block;
+	color: #fff;
+	font-weight: 300;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: 'Archivo', sans-serif;
+	padding: 1.5em 2em;
+	transition: 0.3s;
+}
+
+div#home{
+	/*margin-left: 0px;*/
+	margin-left: 1439px;
+}
+
+div#prequel{
+	/*margin-left: 107px;*/
+	margin-left: 1546px;
+}
+
+div#original{
+	/*margin-left: 226px;*/
+	margin-left: 1665px;
+}
+
+div#sequel{
+	/*margin-left: 345px;*/
+	margin-left: 1784px;
+}
+
+div#logo{
+	width: 0%;
+	height: 0%;
+}
+
+div#logo{
+	width: 0%;
+	height: 0%;
+}
+
+div#logo a img#title{
+	height: 50px;
+	margin-top: -20px;
+}
+
+div#navbar div#home a:hover{
+    box-shadow: inset 0px -1px 0px 0px #FFE81F;
+    color: #FFE81F;
+	padding-bottom: 2.1em;
+}
+
+div#navbar div#prequel a:hover{
+    box-shadow: inset 0px -1px 0px 0px #e70027;
+    color: #e70027;
+	padding-bottom: 2.1em;
+}
+
+div#navbar div#original a:hover{
+    box-shadow: inset 0px -1px 0px 0px #21A645;
+    color: #21A645;
+	padding-bottom: 2.1em;
+}
+
+div#navbar div#sequel a:hover{
+    box-shadow: inset 0px -1px 0px 0px #5b68bd;
+    color: #5b68bd;
+	padding-bottom: 2.1em;
+}
+
+/*Navbar de preenchimento*/
+div#navbarVazia{
+	background: #00021A;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	display: block;
+	transition: top 0.8s;
+	z-index: 10000;
+
+}
+
+div#navbarVazia a{
+	opacity: 0;
+	float: left;
+	display: block;
+	color: #fff;
+	font-weight: 300;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: 'Archivo', sans-serif;
+	padding: 1.5em 2em;
+	transition: 0.3s;
+}
+
+/*Footer*/
+.footerMain {
+	left: 0;
+	width: 100%;
+	height: 200px;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+.footerLine{
+	width: 40%;
+	margin-top: 30px;
+}
+
+.footerText{
+	/*background: red;*/
+	width: 100%;
+	margin-top: 25px;
+	font-family: 'Archivo', sans-serif;
+	color: #A8A8A8;
+	font-size: 14px;
+}
+
+div#fInd{
+	position: absolute;
+	bottom: -1000px;
+}
+
+div#fPre{
+	position: absolute;
+	bottom: -1800px;
+}
+
+div#fOri{
+	position: absolute;
+	bottom: -1800px;
+}
+
+div#fSeq{
+	position: absolute;
+	bottom: -500px;
+}
+
+a#link{
+	color: #A8A8A8;
+}
+
+/*Parallax da página Principal*/
+.starWars{
+	width: 100%;
+	height: 1000px;
+	position: relative;
+	overflow: hidden;
+	background: url(space.png);
+	background-size: cover;
+}
+
+.starWars:before{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 200px;
+	z-index: 1000;
+	background: linear-gradient(transparent, #00021A);
+}
+
+.starWars #layer{
+	position: relative;
+	top: -10%;
+	left:50%;
+	width: 50%;
+	transform: translate(-50%, 75%);
+	z-index: 50;
+}
+
+/*Botao Neon*/
+
+.nb{
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	text-decoration: none;
+	font-size: 22px;
+	overflow: hidden;
+	transition: 0.2s;
+	left: 847px;
+	font-family: 'Archivo', sans-serif;
+}
+
+.nb span{
+	position: absolute;
+	display: block;
+}
+
+/*Botao Neon Vermelho*/
+
+a#red{
+	bottom: -100px;
+}
+
+a#red:hover {
+	color: #480025;
+	background: #e70027;
+	box-shadow: 0 0 10px #e70027, 0 0 40px #e70027, 0 0 80px #e70027;
+	transition-delay: 1s;
+}
+
+a#red:hover span:nth-child(1){
+	left: 100%;
+	transition: 1s;
+}
+
+a#red:hover span:nth-child(2){
+	top: 100%;
+	transition: 1s;
+	transition-delay: 0.25s;
+}
+
+a#red:hover span:nth-child(3){
+	right: 100%;
+	transition: 1s;
+	transition-delay: 0.5s;
+}
+
+a#red:hover span:nth-child(4){
+	bottom: 100%;
+	transition: 1s;
+	transition-delay: 0.75s;
+}
+
+a#red span:nth-child(1){
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(90deg, transparent, #e70027);
+}
+
+a#red span:nth-child(2){
+	top: -100%;
+	right: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(180deg, transparent, #e70027);
+}
+
+a#red span:nth-child(3){
+	bottom: 0;
+	right: -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(270deg, transparent, #e70027);
+}
+
+a#red span:nth-child(4){
+	bottom: -100%;
+	left: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(360deg, transparent, #e70027);
+}
+
+/*Botao Neon Verde*/
+
+a#green{
+	bottom: -95px;
+}
+
+a#green:hover {
+	color: #093442;
+	background: #21A645;
+	box-shadow: 0 0 10px #21A645, 0 0 40px #21A645, 0 0 80px #21A645;
+	transition-delay: 1s;
+}
+
+a#green:hover span:nth-child(1){
+	left: 100%;
+	transition: 1s;
+}
+
+a#green:hover span:nth-child(2){
+	top: 100%;
+	transition: 1s;
+	transition-delay: 0.25s;
+}
+
+a#green:hover span:nth-child(3){
+	right: 100%;
+	transition: 1s;
+	transition-delay: 0.5s;
+}
+
+a#green:hover span:nth-child(4){
+	bottom: 100%;
+	transition: 1s;
+	transition-delay: 0.75s;
+}
+
+a#green span:nth-child(1){
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(90deg, transparent, #21A645);
+}
+
+a#green span:nth-child(2){
+	top: -100%;
+	right: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(180deg, transparent, #21A645);
+}
+
+a#green span:nth-child(3){
+	bottom: 0;
+	right: -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(270deg, transparent, #21A645);
+}
+
+a#green span:nth-child(4){
+	bottom: -100%;
+	left: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(360deg, transparent, #21A645);
+}
+
+/*Ajustes para Prequel*/
+
+h1#pre{
+	margin-left: 890px;
+}
+
+hr#preline1{
+	position: absolute;
+	display: inline-block;
+	width: 200px;
+	left: 695px;
+	top: 1022px;
+}
+
+hr#preline2{
+	position: absolute;
+	display: inline-block;
+	width: 200px;
+	left: 1008px;
+	top: 1022px;
+}
+
+img#layer2{
+	position: absolute;
+	top: 600px;
+	right: 0px;
+}
+
+/*Ajustes Original*/
+
+img#layer3{
+	position: absolute;
+	top: 100px;
+	right: 30px;
+}
+
+/*Ajustes Sequel*/
+
+.construcao{
+	width: 100%;
+	height: 900px;
+	position: relative;
+	overflow: hidden;
+	background: url(construcao.png);
+	background-size: cover;
+}
+
+.construcao:before{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 200px;
+	z-index: 1000;
+	background: linear-gradient(transparent, #00021A);
+}
+
+.starWars p{
+	position: relative;
+	top: -10%;
+	left:50%;
+	width: 50%;
+	z-index: 50;
+}
+
+p#sequel{
+	position: absolute;
+	top: 997px;
+	left: 915px;
+}
+
+h1#construcao{
+	position: absolute;
+	top: 500px;
+	left: 750px;
+	font-size: 60px;
+}
